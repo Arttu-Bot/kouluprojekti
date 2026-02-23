@@ -2,4 +2,4 @@
 
 | JavaScript | HTML | CSS | Bootstrap/SCSS/Tailwind CSS |
 | ---- | ---- | ---- | ---- |
-| Henkilö A | Arttu Porttila | Alvar Sundberg | Henkilö D |
+| Daniil Shvetsov | Arttu Porttila | Alvar Sundberg | Henkilö D |
