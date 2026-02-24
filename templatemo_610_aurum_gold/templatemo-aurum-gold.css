@@ -1002,7 +1002,7 @@ section {
 	aspect-ratio: 1;
 	background: linear-gradient(180deg, #1F1D1A 0%, #151412 100%);
 	display: flex;
-	align-items: center;
+	align-items: left;
 	justify-content: center;
 	position: relative;
 	overflow: hidden;
@@ -1301,13 +1301,13 @@ section {
 
 .contact-info h3 {
 	font-size: 32px;
-	color: var(--gold-light);
+	color: var(--text-primary);
 	margin-bottom: 24px;
 }
 
 .contact-info p {
 	font-size: 16px;
-	color: #ffffff;
+	color: var(--text-secondary);
 	margin-bottom: 40px;
 	line-height: 1.8;
 }
@@ -1321,7 +1321,7 @@ section {
 	align-items: flex-start;
 	gap: 16px;
 	padding: 20px 0;
-	border-bottom: 1px solid var(--gold-light);
+	border-bottom: 1px solid var(--border-color);
 }
 
 .contact-details li:last-child {
@@ -1335,7 +1335,7 @@ section {
 	align-items: center;
 	justify-content: center;
 	background: var(--bg-dark);
-	border: 1px solid var(--gold-light);
+	border: 1px solid var(--border-color);
 	color: var(--gold-light);
 	font-size: 16px;
 	flex-shrink: 0;
@@ -1355,15 +1355,14 @@ section {
 
 .contact-value {
 	font-size: 16px;
-	color: #ffffff;
+	color: var(--text-primary);
 }
 
 /* Contact Form */
 .contact-form {
 	background: var(--bg-dark);
+	border: 1px solid var(--border-color);
 	padding: 48px;
-	border-radius: 10px;
-	border: 2px solid var(--gold-light);
 }
 
 .form-row {
@@ -1386,7 +1385,7 @@ section {
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	color: #ffffff;
+	color: var(--text-muted);
 	margin-bottom: 10px;
 }
 
@@ -1395,10 +1394,9 @@ section {
 .form-textarea {
 	width: 100%;
 	padding: 16px 20px;
-	background: #ffffff;
+	background: var(--bg-card);
 	border: 1px solid var(--border-color);
-	border-radius: 8px;
-	color: #000000;
+	color: var(--text-primary);
 	font-family: 'Libre Franklin', sans-serif;
 	font-size: 15px;
 	transition: all 0.3s ease;
